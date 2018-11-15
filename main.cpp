@@ -3,8 +3,8 @@
 SDL_Window* g_pWindow = 0;
 SDL_Renderer* g_pRenderer = 0;
 
-void init(){}
-void render() {}
+bool init(const char* title, int xpos, int ypos, int width, int height, int flags);
+void render();
 void update(){}
 void handleEvent() {}
 void clean(){}
